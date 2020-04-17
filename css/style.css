@@ -1,0 +1,181 @@
+body{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  background-color: #ffc2c2;
+}
+/* header */
+#header{
+  background-color: #ff2e63;
+}
+/* logo */
+#logo{
+  font-size:3rem;
+  font-family: 'Abril Fatface', serif;
+  color: white;
+  margin: 0;
+}
+/* section1 */
+.padd-center{
+  padding: 6% 8% 0 8%;
+}
+.padd-center-all{
+  padding: 8% 15%;
+}
+.mt{
+  margin-top:3rem;
+}
+.mb{
+  margin-bottom: 3rem;
+}
+.pt{
+  padding-top: 3em;
+}
+.pb{
+  padding-bottom: 3em;
+}
+/* section1-column1 */
+.s1-c1{
+  width:90%;
+}
+/* section1-column2 */
+/* form */
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+.form-data{
+  margin:10px 0px;
+  width:90%;
+  height:2rem;
+  border-style:hidden;
+  background-color: inherit;
+  border-bottom-style: solid;
+  border-bottom-color: #010a43;
+}
+/* guest-login */
+.guest-login{
+  width: 90%;
+  margin:0 auto;
+  margin-top: 1rem;
+  background-color:#ff2e63;
+  border-style: none;
+}
+/* signin */
+.register,.login{
+  background-color:#ff2e63;
+  border-style: none;
+  margin-right: 1rem;
+}
+.guest:hover,.register:hover,.login:hover {
+  background-color: #FF0041;
+}
+.transparent{
+  border: none;
+  background-color: inherit;
+}
+.c-image{
+  width:40% !important;
+  margin: 0 auto;
+}
+.card-text{
+  width: 90%;
+  margin: 0 auto;
+  line-height: 1.3rem;
+}
+.heading{
+  font-weight:500;
+}
+.whitecontainer{
+  background-color: white;
+}
+.pricing .card {
+  border: none;
+  border-radius: 1rem;
+  transition: all 0.2s;
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+}
+
+.pricing hr {
+  margin: 1.5rem 0;
+}
+
+.pricing .card-title {
+  margin: 0.5rem 0;
+  font-size: 0.9rem;
+  letter-spacing: .1rem;
+  font-weight: bold;
+}
+
+.pricing .card-price {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.pricing .card-price .period {
+  font-size: 0.8rem;
+}
+
+.pricing ul li {
+  margin-bottom: 1rem;
+}
+
+.pricing .text-muted {
+  opacity: 0.7;
+}
+
+.pricing .btn {
+  font-size: 80%;
+  border-radius: 5rem;
+  letter-spacing: .1rem;
+  font-weight: bold;
+  padding: 1rem;
+  opacity: 0.7;
+  transition: all 0.2s;
+}
+.md-footer{
+  display: none;
+}
+/* mediaqueries */
+@media screen and (max-width: 767.99px) {
+  .lg-footer{
+    display: none;
+  }
+  .md-footer{
+    display: block;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px){
+  .s1-c1{
+    width: 100%;
+    padding-top:2rem;
+  }
+  .form-data{
+    height:2rem;
+  }
+  .pricing .card{
+    width:80%;
+    margin:0 auto;
+  }
+}
+p.about{
+  width: 60%;
+}
+.footer-copyright{
+  padding: 2% 5% 0% 5%;
+}
+/* Hover Effects on Card */
+@media (min-width: 992px) {
+  .pricing .card:hover {
+    margin-top: -.25rem;
+    margin-bottom: .25rem;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+  }
+  .pricing .card:hover .btn {
+    opacity: 1;
+  }
+}
